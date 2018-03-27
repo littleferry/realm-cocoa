@@ -1,3 +1,19 @@
+x.x.x Release notes (yyyy-MM-dd)
+=============================================================
+
+### Breaking Changes
+
+* None.
+
+### Enhancements
+
+* None.
+
+### Bugfixes
+
+* Cancel pending `Realm.asyncOpen()` calls when authentication fails with a
+  non-transient error such as missing the Realm path in the URL.
+
 3.3.0 Release notes (2018-03-19)
 =============================================================
 
